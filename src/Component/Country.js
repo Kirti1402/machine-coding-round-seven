@@ -8,7 +8,7 @@ export default function Country() {
   return (
     <div>
        <header className='header'>
-            
+       <button  className='back-btn'><Link className='link' to="/continents">Back</Link></button>
             <h4>Top Place to Visit in {citiesData.name} </h4>
         </header>
         <div className='continents-container'>

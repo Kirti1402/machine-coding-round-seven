@@ -7,8 +7,8 @@ export default function Continents() {
     console.log( "country",countryData)
   return (
     <div>
+        <button  className='back-btn'><Link  className='link'  to="/">Back</Link></button>
         <header className='header'>
-            
             <h4>Top Countries in {countryData.name} </h4>
         </header>
         <div className='continents-container'>

@@ -60,5 +60,21 @@ body{
 
 .place {
   display: flex;
+}
 
+.back-btn{
+  position: absolute;
+  color: white;
+  top:0;
+  left:0;
+  margin: 10px;
+  border:none;
+  padding: 5px;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
 }

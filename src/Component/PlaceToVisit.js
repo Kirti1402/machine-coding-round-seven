@@ -9,6 +9,7 @@ export default function PlaceToVisit() {
     const {id,description,image,ratings,location,name,openingHours,reviews,ticketPrice,website} = place
   return (
     <div className='place-container'>
+        <button  className='back-btn'><Link   className='link' to="/country">Back</Link></button>
         <div className='place-img'><img src={image} alt={name}/></div>
         <div>
             <p className='place'><span className='name'>Description:</span><span>{description}</span></p>
