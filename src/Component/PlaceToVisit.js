@@ -18,7 +18,7 @@ export default function PlaceToVisit() {
             <p className='place'><span className='name'>Opening Hours:</span>{openingHours}<span></span></p>
             <p className='place'><span className='name'>Reviews:</span><span>{reviews}</span></p>
             <p className='place'><span className='name'>ticket Price:</span><span>{ticketPrice}</span></p>
-            <p className='place'><span className='name'>Website:</span><span><a href={website}/>{website}</span></p>
+            <p className='place'><span className='name'>Website:</span><span><a href={website} />{website}</span></p>
         </div>
     </div>
   )

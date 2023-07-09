@@ -51,6 +51,7 @@ body{
 .place-img img{
   width: 250px;
   height: 280px;
+  border-radius: 10px;
 }
 
 .name{
