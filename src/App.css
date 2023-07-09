@@ -40,3 +40,25 @@ body{
 .continent-name >*{
   margin-left: 5px;
 }
+
+.place-container{
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.place-img img{
+  width: 250px;
+  height: 280px;
+}
+
+.name{
+  color: blue;
+  margin-left: 10px;
+}
+
+.place {
+  display: flex;
+
+}
