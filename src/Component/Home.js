@@ -15,7 +15,8 @@ export default function Home() {
             {tripData && tripData.map(continents => {
                 const {id,image,name} = continents;
                 return <div className='continents-card' key={id}>
-                        <Link to="/continents" onClick={()=> setCountryData(continents)}>
+
+                        <Link to="/continents"onClick={()=> setCountryData(continents)}>
                         <img src={image} alt={name}/>
                     <p className='continent-name'><span><i class="fas fa-map-marker-alt"></i></span><span>{name}</span></p>
                         </Link>
