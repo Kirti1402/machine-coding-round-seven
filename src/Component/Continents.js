@@ -9,7 +9,7 @@ export default function Continents() {
     <div>
         <header className='header'>
             
-            <h4>Top Continents in {countryData.name} </h4>
+            <h4>Top Countries in {countryData.name} </h4>
         </header>
         <div className='continents-container'>
             {countryData.countries && countryData.countries.map(countries => {

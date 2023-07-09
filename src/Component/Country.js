@@ -9,7 +9,7 @@ export default function Country() {
     <div>
        <header className='header'>
             
-            <h4>Top countries in {citiesData.name} </h4>
+            <h4>Top Place to Visit in {citiesData.name} </h4>
         </header>
         <div className='continents-container'>
             {citiesData.destinations && citiesData.destinations.map(places => {
