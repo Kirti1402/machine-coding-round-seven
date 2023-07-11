@@ -44,23 +44,32 @@ body{
 .place-container{
   display: flex;
   color: white;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 50px;
 }
 
 .place-img img{
+  flex: 0 0 auto;
   width: 250px;
   height: 280px;
   border-radius: 10px;
 }
 
 .name{
+  margin-right: 5px;
   color: blue;
-  margin-left: 10px;
+  word-wrap: break-word;
+    width: 100px;
+}
+
+.detail {
+  word-wrap: break-word;
+  max-width: 800px;
 }
 
 .place {
   display: flex;
+  align-items: center;
 }
 
 .back-btn{
@@ -78,4 +87,31 @@ body{
 .link{
   text-decoration: none;
   color: black;
+}
+
+@media (max-width: 767px) {
+  .continents-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .place-container{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .name{
+    margin-right: 5px;
+    color: blue;
+    word-wrap: break-word;
+    width: 100px;
+  }
+  .detail {
+    word-wrap: break-word;
+    width: 200px;
+  }
 }
